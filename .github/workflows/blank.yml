@@ -2,12 +2,7 @@ name: Deploy pages
 on: push
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-  repository-projects: write
-  deployments: write
+permissions: write-all
 
 # Allow one concurrent deployment
 concurrency:
